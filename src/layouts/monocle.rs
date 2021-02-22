@@ -21,6 +21,7 @@ pub fn update(workspace: &Workspace, windows: &mut Vec<&mut &mut Window>) {
             let manager: Manager;
             match manager.focused_window() {
             w => w.set_visible(true),
+            //why is w losing scope here?
             _ => w.set_visible(false),
             };
     }
