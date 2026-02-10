@@ -6,6 +6,7 @@ leftwm.logs
 result
 .nixos-vm/result
 .nixos-vm/leftwm.qcow2
+.nixos-vm/personal.nix
 .direnv
 .envrc
 
